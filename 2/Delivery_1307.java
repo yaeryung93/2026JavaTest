@@ -47,7 +47,8 @@ class Delivery{
         this.weight = weight;
     }
     String getInfo(){
-        System.out.printf("수령인: %s | 요금: %d원 | 무게: %dkg\n",this.recipient,this.fee,this.weight);
         return "수령인: "+this.recipient+" | 요금: "+this.fee+"원 | 무게: "+this.weight+"kg\n";
     }
+    void print(){
+        System.out.printf("수령인: %s | 요금: %d원 | 무게: %dkg\n",this.recipient,this.fee,this.weight);
 }
