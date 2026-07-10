@@ -51,4 +51,5 @@ class Delivery{
     }
     void print(){
         System.out.printf("수령인: %s | 요금: %d원 | 무게: %dkg\n",this.recipient,this.fee,this.weight);
+    }
 }
